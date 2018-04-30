@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import { Grid, Segment } from 'semantic-ui-react'
+import React, { Component } from 'react';
+import { Grid, Segment } from 'semantic-ui-react';
 
- 
 export default class AnalyticsContainer extends Component {
   render() {
+    console.log(this);
     return (
       <div>
         <Grid columns={3} divided>
