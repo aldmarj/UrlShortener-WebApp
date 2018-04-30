@@ -3,17 +3,19 @@ import { Header } from 'semantic-ui-react'
 import FontAwesome from '@fortawesome/react-fontawesome'
 import faCoffee from '@fortawesome/fontawesome-free-solid/faBasketballBall'
 
+const divStyle = {
+  margin: '24px',
+};
+
+
 const HomeHeader = () => (
   <div>
     <Header as='h2' icon textAlign='center'>
-    <FontAwesome
-        icon={faCoffee}
-        size='2x'
-        spin
-        style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-      />
       <Header.Content>
         URL Shortner
+        <Header style={divStyle} as='h3' textAlign='center'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </Header>
       </Header.Content>
     </Header>
   </div>

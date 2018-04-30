@@ -1,0 +1,3 @@
+targets:
+  Jarni: shared-eu-west-1/cjeinhxa929td01354gcjew5f
+  default: Jarni
