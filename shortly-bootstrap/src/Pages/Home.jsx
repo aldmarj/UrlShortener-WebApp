@@ -7,7 +7,7 @@ import AddProfileModal from '../Containers/AddProfileModal.jsx';
 
 export default class HomePage extends Component {
   state = {
-    addUrlModal: true,
+    addUrlModal: false,
     errors: {
       // url: 'Url invalid',
       // handle: 'Handle Already Taken'
@@ -23,7 +23,7 @@ export default class HomePage extends Component {
         />
         <div className="col-xs-2 text-center">1</div>
         <div className="col-xs-8">
-          <div className="text-center">
+          <div className="">
             <UrlList />
           </div>
           <Button

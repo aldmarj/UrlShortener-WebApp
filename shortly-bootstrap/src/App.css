@@ -1,6 +1,18 @@
+.navbar {
+  border-radius: 0 !important;
+}
+
 th {
-  text-align: center;
+  /* text-align: center; */
   background: #eee;
+  font-weight: 800;
+  font-size: 18pt;
+}
+
+td {
+  padding: 14px !important;
+  /* height: 90px; */
+  vertical-align: baseline !important;
 }
 
 /* Make Bootstrap Columns Same Height */
