@@ -1,0 +1,19 @@
+th {
+  text-align: center;
+  background: #eee;
+}
+
+/* Make Bootstrap Columns Same Height */
+
+.blow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+}
+
+.blow > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
